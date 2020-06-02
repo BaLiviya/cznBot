@@ -5,6 +5,7 @@ import baliviya.com.github.cznBot.entity.standart.User;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class id001_ShowInfo extends Command {
+
     @Override
     public boolean execute() throws TelegramApiException {
         if (!usersDao.isRegistered(chatId)) {
